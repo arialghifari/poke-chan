@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter:wght@400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,6 +11,6 @@
 }
 
 * {
-  font-family: 'Poppins';
+  font-family: 'Inter';
 }
 
