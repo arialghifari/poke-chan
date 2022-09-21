@@ -5,14 +5,16 @@ function PokemonDetail({ url, setDetail }) {
   const [pokemon, setPokemon] = useState(null);
 
   useEffect(() => {
+    document.body.style.overflow = 'hidden';
     axios
       .get(url)
       .then(({ data }) => setPokemon(data))
       .catch((error) => console.log(error.message));
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleClose = () => {
+    document.body.style.overflow = 'auto';
     setDetail({ show: false, url: '' });
     setPokemon(null);
   };
