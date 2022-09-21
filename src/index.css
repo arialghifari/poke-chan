@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,3 +13,4 @@
 * {
   font-family: 'Poppins';
 }
+
