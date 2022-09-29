@@ -60,10 +60,7 @@ function PokemonList() {
       ))}
 
       {pokemons.length < pokemonCount ? (
-        <p
-          onClick={() => renderNextPage()}
-          className='text-center block w-full pt-2 rounded-sm shadow-sm text-zinc-400 ease-in-out duration-150 animate-pulse'
-        >
+        <p className='text-center block w-full pt-2 rounded-sm shadow-sm text-zinc-400 ease-in-out duration-150 animate-pulse'>
           loading...
         </p>
       ) : (
